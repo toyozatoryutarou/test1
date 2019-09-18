@@ -18,37 +18,35 @@
 
 リポジトリ自体を初めて取得する場合は
 
-`$ git clone https://github.com/[projects]`
+ * `$ git clone https://github.com/[projects]`
 
-* develop branchを取得
+develop branchを取得
 
-`$ git checkout develop`  
-`$ git pull origin develop`  
+ * `$ git checkout develop`  
+ * `$ git pull origin develop`  
 
-* 作業用のbranchを切って移動する
+作業用のbranchを切って移動する
 
+ * `$ git checkout -b 'create/partXX/chapYY'`
 
-`$ git checkout -b 'create/partXX/chapYY'`
+変更したファイルを確認
 
+ * `$ git status`
 
-* 変更したファイルを確認
+修正したファイルをステージングする
 
-`$ git status`
+ * `$ git add hoge/huga.md`
 
-* 修正したファイルをステージングする
-
-`$ git add hoge/huga.md`
-
-* インデックスに追加した更新をローカルブランチにcommitする  
+インデックスに追加した更新をローカルブランチにcommitする  
 
 何を修正したのかがわかるようにコミットメッセージを追加しましょう．
 
-`$ git commit -m '1章を翻訳しました'`
+ * `$ git commit -m '1章を翻訳しました'`
 
-* コミット内容をリモートブランチにpushする  
+コミット内容をリモートブランチにpushする  
 ※一度pushを行いエラー内容が返ってくるのでそちらをコピペしてpushする
 
-`$ git push`
+ * `$ git push`
 
 ### レビュー
 
