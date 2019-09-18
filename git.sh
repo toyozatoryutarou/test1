@@ -1,4 +1,4 @@
-mageを.wikiにコミットと、プッシュを行う
+# imageを.wikiにコミットと、プッシュを行う
 cd test1.wiki
 git add .
 git commit -a -m 'update submodule'
