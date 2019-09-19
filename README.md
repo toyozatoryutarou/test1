@@ -31,7 +31,7 @@ develop branchを取得
 
 変更したファイルを確認
 
- * `$ git status`
+ * `$ git status -sb`
 
 修正したファイルをステージングする
 
